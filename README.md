@@ -9,21 +9,6 @@ You corrected one thing. It changed five.
 That’s the whole prompt. It tells the assistant to look back at what you
 actually asked, catch where it went sideways, and pick up from there.
 
-## Just say it
-
-Once the plugin is enabled, send any of these on its own in the same chat.
-
-- `what...?`
-- `what?`
-- `bro`
-- `come on`
-- `seriously?`
-
-Caps and extra spaces are fine. The phrase has to be the whole message.
-If the chat misses it, select **what-reset** and send the phrase again.
-Use `$what-reset` in Codex CLI or select the skill with `@` in ChatGPT.
-[Skill invocation docs](https://learn.chatgpt.com/docs/build-skills#how-chatgpt-and-codex-use-skills)
-
 ## How that sounds
 
 > **You** — Can we riff on a name for this feature?  
@@ -53,7 +38,7 @@ For a standalone Codex install, copy the `skills/what-reset` directory into
 `~/.agents/skills/` and start a new chat. The installed path should be
 `~/.agents/skills/what-reset/SKILL.md`.
 
-## Reset flow
+## Flowchart of change
 
 ```mermaid
 flowchart TD
