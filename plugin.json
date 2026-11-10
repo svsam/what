@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "what-reset",
+  "version": "0.1.1",
+  "description": "Recover the current ask when the assistant drifts, with a second look from a reviewer when available.",
+  "license": "MIT",
+  "author": {
+    "name": "svsam"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "what...?",
+        "shortDescription": "Get back to the ask",
+        "longDescription": "Send a short reset phrase to recover your current ask, get a second look when available, and resume the work.",
+        "developerName": "svsam",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "what...?"
+      }
+    }
+  }
+}
